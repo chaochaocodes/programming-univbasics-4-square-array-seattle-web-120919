@@ -1,9 +1,11 @@
 def square_array(array)
   # your code here
   counter = 0
-  while counter < array.length
-    puts array[counter] **= 2
-
+  while counter < array.length do
+    squared_number = array[counter] **= 2
+    puts square
+    counter += 1
+  end 
 end
 
 # numbers = [1,2,3]
